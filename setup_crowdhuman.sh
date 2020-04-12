@@ -11,6 +11,7 @@ cd data
 # Generate CrowdHuman lists
 
 python crowdhuman_train_anno.py
+python crowdhuman_val_anno.py
 
 # Generate PASCAL lists for YOLO
 cd ../tool
